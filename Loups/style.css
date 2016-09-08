@@ -1,0 +1,68 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+/* li{padding-left: 20px;}*/
+ /*background-color: #EEEEEE;*/
+}
+ul{padding-left: 1em;}
+#wrapper{
+ width: 970px;
+ background-color: #EEEEEE;
+ margin: 0px auto;
+ padding: 1em;
+ overflow: hidden;
+}
+#header{
+ /*height: 150px;*/
+ background-color: #DDDDDD;
+ margin: 0px 0 10px 0;
+ border-radius: 20px;
+ font-size: 300%;
+ font-weight: bold;
+ padding:20px;
+}
+#navigation{
+ width: 230px;
+ background-color: #DDDDDD;
+ border-radius: 20px;
+ /* float: left; */
+ display: inline-block;
+ vertical-align: top;
+ margin-left: 16px;
+ margin-top: 16px;
+ margin-bottom: 16px;
+ padding-left: 20px;
+ padding-top: 20px;
+ padding-bottom: 20px;}
+#navigation a {text-decoration: none;}
+#navigation ul {list-style-position: inside;
+ 	margin-left:0;
+ 	padding-left: 1em;}
+#main_content{
+ width: 600px;
+ background-color: #AAAAAA;
+ border-radius: 20px;
+ /* float: left; */
+ display: inline-block;
+ margin-left: 16px;
+ margin-top: 16px;
+ padding: 20px;
+ }
+#main_content a{text-decoration: underline;
+  color:blue;}
+#main_content  h1{padding-top: 0.7em;
+    padding-bottom: 0.7em;}
+#main_content  ul{list-style-position: outside;
+ 	  margin-left: 1em;
+ 	  padding: 1em;}
+#main_content  li{margin-left:0;
+ 	  padding: 0.7em;}
+.mr {font-weight: bold;}
+#foot{
+ width: 920px;
+ background-color: #DDDDDD;
+ display: inline-block;
+ border-radius: 20px;
+ padding: 1em;
+ margin: 0 auto;
+}
