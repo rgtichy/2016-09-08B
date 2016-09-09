@@ -1,35 +1,37 @@
 /*CSS reset settings here*/
 *{
- margin: 0px;
- padding: 0px;
-}
-/*a{color: darkred;}*/
-/*ul{
-  list-style-position: outside;*/
+  margin: 0px;
+  padding: 0px;
+  font-family:sans-serif;
 }
 #wrapper{
- width: 970px;
- background-color: white;
- margin: 0px;
- overflow:hidden;
- padding: 1px;
+  width: 950px;
+  background-color: white;
+  margin: 0px;
+  overflow:hidden;
+  padding: 1px;
 }
 #header{
- height: 110px;
- width: 970px;
- background-color: darkred;
- margin-bottom: 20px;
- display: block;
+  height: 110px;
+  width: 950px;
+  background-color: darkred;
+  margin-bottom: 20px;
+  display: block;
 }
 #red{
   height: 80px;
-  width: 970px;
+  width: 900px;
   background-color: darkred;
-  margin-left: 50px;
+  padding-left: 50px;
   display:inline-block;
   vertical-align: middle;
 }
-.motto {vertical-align: middle;}
+.motto {vertical-align: middle;
+        margin:auto;
+        color:white;
+        padding-top:25px;
+        font-style:normal;
+        font-family: fantasy;}
 #red_inside3{
   display:inline-block;
   vertical-align: top;
@@ -43,45 +45,49 @@
                 vertical-align: top;}
 #red_inside3 a {color: orange;
                 vertical-align: top;}
+.red_head {color: silver;
+          height: 75px;
+          width: 275px;
+          font-size: 90%;
+          text-decoration: initial;
+          display: inline-block;
+          vertical-align: middle;
+          list-style-type: none;
+          }
 #nav{
-  height: 25px;
-  padding-top: 5px;
-  background-color: silver;
-  display:block;
-  font-family: sans-serif;
-  font-size: 80%;
-  font-weight: bold;
-  text-decoration: none;
-}
-#nav ul {display: inline-block;}
+    height: 25px;
+    padding-top: 5px;
+    background-color: silver;
+    display:block;
+    font-family: sans-serif;
+    font-size: 80%;
+    color: #666666;
+    font-weight: bold;
+    text-decoration: none;
+    }
+#nav ul {display: inline-block;
+        }
 #nav li {display: inline-block;
         padding-left: 20px;
         padding-right: 20px;
         vertical-align:middle;
-}
-.nav_text {color: #3f3f3f;
+        }
+#nav a {color: #3f3f3f;
         text-decoration: none;
-}
-.red_head {color: orange;
-        height: 75px;
-        width: 300px;
-        font-size: 90%;
-        text-decoration: initial;
-        display: inline-block;
-        vertical-align: middle;
-        list-style-type: none;
-}
+        }
 #sidebar{
- height: 300px;
- width: 160px;
- background-color: silver;
- display: inline-block;
- vertical-align: top;
- margin: 0 20px 0 20px;
- padding: 5px;
- list-style-position: outside;
+        width: 160px;
+        background-color: #EEEEEE;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 20px 0 20px;
+        padding: 5px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #E1E1E1;
+        list-style-position: outside;
 }
-.sidebar_text a {color: darkred;}
+
 #sidebar ul {
   list-style-position: outside;
   /*  list-style-type: '»';  */
@@ -90,32 +96,26 @@
   padding-right: 1em;
   text-align: left;
 }
+#sidebar a{color: darkred;
+          }
 #main{
- width: 700px;
- background-color: silver;
- display:inline-block;
- padding: 25px;
- /*color: darkred;*/
-
-}
+      width: 650px;
+      background-color: white;
+      display:inline-block;
+      padding: 25px;
+      }
 #main h1,h2,h3,h4,h5,h6 {color: darkred;}
 #main li {list-style-position: outside;
-          margin-left: 35px;}
-#main a {color:darkred;}
+          margin-left: 35px;
+        }
+#main a {color:darkred;
+        }
 #main p {padding-top:10px;
         padding-bottom: 10px;
         }
 .entry {padding-top: 10px;
         padding-bottom: 10px;
         border-bottom-style: solid;
-        border-bottom-color: blue;
         border-bottom-width: medium;
-        border-bottom-color: gray;}
-.subcontents{
- height: 200px;
- width: 210px;
- background-color: yellow;
- display:inline-block;
- margin-right: 10px;
- /*margin-top: 15px;*/
-}
+        border-bottom-color: gray;
+        }
