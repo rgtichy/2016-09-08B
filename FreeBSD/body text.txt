@@ -1,0 +1,25 @@
+FreeBSD/ppc Project
+Introduction
+The FreeBSD/ppc project pages contain information about the FreeBSD port to the PowerPC<r> architecture.  As with the port itself, these pages are still a work in progress.
+Table of Contents
+Status
+Latest News
+Port FAQs
+Supported Hardware
+FreeBSD/ppc mailing list
+Known Issues
+Documentation, White Papers, Utilities
+Other links of interest
+Status
+The FreeBSD/ppc port is still a Tier 2 platform.  That means it is not being fully supported by our security officer, release engineers and toolchain maintainers.
+Latest News
+03 April, 2009: Support for the PowerPC<r> G5 has been committed to SVN.
+03 March, 2008: Support for Freesale<r> PowerQUICC III MPC85XX family system-on-chip development boards has been committed into CVS.
+27 February, 2008: FreeBSD 7.0 is the first release to officially support the FreeBSD/ppc port.
+Frequently Asked Questions
+How can I install FreeBSD/ppc
+How to use ports on FreeBSD/ppc?
+Who should I contact?
+How can I install FreeBSD/ppc?
+ISO images of FreeBSD 8.2 suitable for New-World Macs are available for download, for details on how to obtain these see the release announcement.  Please follow instructions given here.
+How to use ports on Free/BSD/ppc?
